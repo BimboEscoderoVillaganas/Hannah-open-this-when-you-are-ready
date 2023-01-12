@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    text-align: center;
+    background-color: rgb(192, 1, 255);
+}
+.heading h1{
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+.button{
+    text-align: center;
+}
+.button ul{
+    list-style: none;
+}
+.button ul li a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.button .b1, .b2 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(192, 1, 255);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 100px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 30px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  
+  .button .b1:hover {
+    border-radius: 100px;
+    background-color: rgb(0, 255, 85);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .button .b2:hover {
+    border-radius: 100px;
+    background-color: rgb(255, 47, 0);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .heart {
+	font-size: 80px;
+	color: #e00;
+	animation: beat .25s infinite alternate;
+	transform-origin: center;
+}
+
+@keyframes beat{
+	to { transform: scale(1.4); }
+}
+.copy{
+    margin-top: 105px;
+    height: 50px;
+    background-color: gray;
+    padding: 0px 10px 30px 10px;
+}
+.copy h4{
+    padding-top: 25px;
+}
+.p{
+    border: 5px solid red;
+    margin: 0% 10% 0% 10%;
+}
+.p:hover{
+    box-shadow: 10px 10px 20px white;
+    border: 10px solid red;
+    margin: 0% 5% 0% 5%;
+}
+.p p{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 20px 10px 20px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 5px white;
+}
